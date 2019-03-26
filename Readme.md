@@ -43,7 +43,7 @@ We manage to achieve a `validation_acc` of **0.7964**. However, there involve so
 
 Below is the classification report generated from `sklearn`. 
 
-![image-20190326164702797](/Users/lionellloh/Library/Application Support/typora-user-images/image-20190326164702797.png)
+![./assets/screenshot.png)
 
  In this case, I am most interested in the `recall` of `positive` examples. In this classification task, there is high stakes in the prediction of `positive` cancer cells. A recall rate of 0.81 reflects that given a positive cancer cell, we were able to classify it correctly 81% of the time. Personally, I find that this begs improvement. 
 
